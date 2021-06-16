@@ -5,18 +5,18 @@ export const NavBar = () => {
         {
 
             text: "Mission",
-            url: "#",
+            url: "#mission",
           },
           {
        
             text: "Featured Tea",
-            url: "#",
+            url: "#tea",
     
           },
           {
       
             text: "Locations",
-            url: "#",
+            url: "#locations",
     
           },
     ],

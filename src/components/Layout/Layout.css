@@ -38,9 +38,11 @@ nav {
    
 }
 header {
+    position: fixed;
     height: 69px;
     display: flex;
     align-items: center;
+    background-color: black;
     border-bottom: 1px solid seashell;
 }
 nav a {

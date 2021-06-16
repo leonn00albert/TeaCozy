@@ -11,7 +11,7 @@ export const TeaSection = () => {
   ];
 
   return (
-    <section className="tea-section" style={styles}>
+    <section id='tea' className="tea-section" style={styles}>
       <div>
         <h2>Tea of the Month</h2>
         <p>What's Steeping at The Tea Cozy?</p>

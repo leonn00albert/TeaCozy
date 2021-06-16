@@ -35,7 +35,7 @@ export const Locations = () => {
     },
   };
   return (
-    <section className="hero-section" style={styles}>
+    <section id='locations' className="hero-section" style={styles}>
         <div>
         <h2 style={{marginBottom: '15px'}}> Locations</h2>
         </div>
