@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin: 1em;
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    margin: 1em;
+    font-size: 22px;
+}
+nav {
+
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 1em;
+    flex-direction: row;
+    align-self:flex-end;
+    
+   
+}
+header {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+nav a {
+    margin: 1em;
+    color: seashell;
+}
+
+.logo {
+    margin: 1em;
+    height: 50px;
+    float: left;
+}
+
+section div {
+    width: 100%;
+}
+
+
+section .banner {
+
+ background-color: black;
+}
+section {
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
